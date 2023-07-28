@@ -1,0 +1,23 @@
+layout {
+	pane split_direction="horizontal" {
+		pane {
+			name "editor"
+			command "hx"
+			args "."
+			size "70%"
+			close_on_exit true
+		}
+		pane split_direction="vertical" {
+			pane {
+				name "cli #1"
+        		command "git"
+        		args "branch"
+				size "50%"
+			}
+			pane {
+				name "cli #2"
+				size "50%"
+			}
+		}
+	}
+}
