@@ -1,5 +1,10 @@
 alias ls='ls --color=auto'
 
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+
 # delete git branches whose name start with on of the following prefixes:
 alias git-clean-branches='git branch -d \
   $(git branch -l "chore/*") \
