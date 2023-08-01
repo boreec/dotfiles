@@ -9,10 +9,14 @@ reference for your own configuration files.
 
 # Use cases
 
-The configuration files can be used with the following softwares:
+## Softwares
 
 - zsh (shell)
 - [alacritty](https://github.com/alacritty/alacritty) (terminal)
 - [zellij](https://github.com/zellij-org/zellij) (terminal multiplexer)
 - [helix](https://github.com/helix-editor/helix) (modal text editor)
+
+## Languages server
+- [bash-lsp](https://github.com/bash-lsp/bash-language-server) (bash)
+- [ruff-lsp](https://github.com/astral-sh/ruff-lsp) (python)
 
