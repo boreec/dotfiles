@@ -1,12 +1,10 @@
 [[language]]
 name = "python"
 scope = "source.python"
-language-server = { command = "ruff-lsp" }
-config = { settings = { args = [] } }
+language-servers = ["ruff-lsp"]
 
 [[language]]
 name="bash"
-language-server = { command = "bash-language-server" }
 file-types = [
   "bash", 
   ".bashrc", 
@@ -16,3 +14,8 @@ file-types = [
   ".zshrc", 
   ".zsh_aliases"
 ]
+language-servers = ["bash-language-server"]
+
+[language-server]
+bash-language-server = { command = "bash-language-server", args = ["start"] }
+ruff-lsp = { command = "ruff-lsp", args = [] }
