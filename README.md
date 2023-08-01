@@ -19,4 +19,5 @@ reference for your own configuration files.
 ## Languages server
 - [bash-lsp](https://github.com/bash-lsp/bash-language-server) (bash)
 - [ruff-lsp](https://github.com/astral-sh/ruff-lsp) (python)
+- [rust-analyzer](https://github.com/rust-lang/rust-analyzer) (rust)
 

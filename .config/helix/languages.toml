@@ -1,9 +1,4 @@
 [[language]]
-name = "python"
-scope = "source.python"
-language-servers = ["ruff-lsp"]
-
-[[language]]
 name="bash"
 file-types = [
   "bash", 
@@ -16,6 +11,17 @@ file-types = [
 ]
 language-servers = ["bash-language-server"]
 
+[[language]]
+name = "python"
+scope = "source.python"
+language-servers = ["ruff-lsp"]
+
+[[language]]
+name="rust"
+file-types = ["rs"]
+language-servers = ["rust-analyzer"]
+
 [language-server]
 bash-language-server = { command = "bash-language-server", args = ["start"] }
 ruff-lsp = { command = "ruff-lsp", args = [] }
+rust-analyzer = { command = "rust-analyzer", args = [] }
