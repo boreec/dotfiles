@@ -1,5 +1,7 @@
 alias ls='ls --color=auto'
 
+alias prc='pre-commit'
+
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit'

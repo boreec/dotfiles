@@ -7,3 +7,12 @@ config = { settings = { args = [] } }
 [[language]]
 name="bash"
 language-server = { command = "bash-language-server" }
+file-types = [
+  "bash", 
+  ".bashrc", 
+  ".bash_aliases", 
+  "sh", 
+  "zsh", 
+  ".zshrc", 
+  ".zsh_aliases"
+]
