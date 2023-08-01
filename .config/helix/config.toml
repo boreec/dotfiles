@@ -1,2 +1,4 @@
 theme = "monokai"
 
+[editor]
+rulers = [80]
