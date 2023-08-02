@@ -18,6 +18,8 @@ reference for your own configuration files.
 
 ## Languages server
 - [bash-language-server](https://github.com/bash-lsp/bash-language-server) (bash)
+- [marksman](https://github.com/artempyanykh/marksman) (markdown)
+- [pylsp](https://github.com/python-lsp/python-lsp-server) (python)
 - [ruff-lsp](https://github.com/astral-sh/ruff-lsp) (python)
 - [rust-analyzer](https://github.com/rust-lang/rust-analyzer) (rust)
 - [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) (typescript)
