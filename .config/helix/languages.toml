@@ -21,7 +21,13 @@ name="rust"
 file-types = ["rs"]
 language-servers = ["rust-analyzer"]
 
+[[language]]
+name="typescript"
+file-types = ["ts"]
+language-servers = ["typescript-language-server"]
+
 [language-server]
 bash-language-server = { command = "bash-language-server", args = ["start"] }
 ruff-lsp = { command = "ruff-lsp", args = [] }
 rust-analyzer = { command = "rust-analyzer", args = [] }
+typescript-language-server = { command = "typescript-language-server", args = ["--stdio"]}

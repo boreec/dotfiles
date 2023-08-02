@@ -17,7 +17,7 @@ reference for your own configuration files.
 - [helix](https://github.com/helix-editor/helix) (modal text editor)
 
 ## Languages server
-- [bash-lsp](https://github.com/bash-lsp/bash-language-server) (bash)
+- [bash-language-server](https://github.com/bash-lsp/bash-language-server) (bash)
 - [ruff-lsp](https://github.com/astral-sh/ruff-lsp) (python)
 - [rust-analyzer](https://github.com/rust-lang/rust-analyzer) (rust)
-
+- [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) (typescript)
