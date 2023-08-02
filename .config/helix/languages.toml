@@ -34,6 +34,14 @@ name="typescript"
 file-types = ["ts"]
 language-servers = ["typescript-language-server"]
 
+[[language]]
+name = "yaml"
+scope = "source.yaml"
+file-types = ["yml", "yaml"]
+roots = []
+comment-token = "#"
+indent = { tab-width = 2, unit = "  " }
+
 [language-server]
 bash-language-server = { command = "bash-language-server", args = ["start"] }
 marksman = { command = "marksman", args = ["server"] }
