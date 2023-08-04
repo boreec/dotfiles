@@ -11,10 +11,11 @@ reference for your own configuration files.
 
 ## Softwares
 
-- zsh (shell)
 - [alacritty](https://github.com/alacritty/alacritty) (terminal)
-- [zellij](https://github.com/zellij-org/zellij) (terminal multiplexer)
 - [helix](https://github.com/helix-editor/helix) (modal text editor)
+- [zellij](https://github.com/zellij-org/zellij) (terminal multiplexer)
+- git
+- zsh (shell)
 
 ## Languages server
 - [bash-language-server](https://github.com/bash-lsp/bash-language-server) (bash)
