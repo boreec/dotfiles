@@ -24,3 +24,6 @@ reference for your own configuration files.
 - [ruff-lsp](https://github.com/astral-sh/ruff-lsp) (python)
 - [rust-analyzer](https://github.com/rust-lang/rust-analyzer) (rust)
 - [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) (typescript)
+
+## Other
+- [pre-commit](https://pre-commit.com/)
