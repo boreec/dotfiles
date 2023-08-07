@@ -15,6 +15,8 @@ language-servers = ["bash-language-server"]
 name = "python"
 scope = "source.python"
 file-types = ["py"]
+formatter = { command = "black", args = ["--quiet", "--line-length=80", "-"] }
+auto-format = true
 language-servers = ["pylsp", "ruff-lsp"]
 
 [[language]]
