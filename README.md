@@ -25,5 +25,9 @@ reference for your own configuration files.
 - [rust-analyzer](https://github.com/rust-lang/rust-analyzer) (rust)
 - [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) (typescript)
 
+## Languages formatter
+- [black](https://github.com/psf/black) (python)
+- [rustfmt](https://github.com/rust-lang/rustfmt) (rust)
+
 ## Other
 - [pre-commit](https://pre-commit.com/)
