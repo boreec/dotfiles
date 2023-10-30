@@ -1,4 +1,12 @@
 theme = "monokai"
 
 [editor]
+bufferline = "multiple"
+middle-click-paste = false
+mouse = false
 rulers = [80]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
