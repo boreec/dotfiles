@@ -23,6 +23,7 @@ reference for your own configuration files.
 - [pylsp](https://github.com/python-lsp/python-lsp-server) (python)
 - [ruff-lsp](https://github.com/astral-sh/ruff-lsp) (python)
 - [rust-analyzer](https://github.com/rust-lang/rust-analyzer) (rust)
+- [taplo](https://github.com/tamasfe/taplo) (toml)
 - [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) (typescript)
 
 ## Languages formatter

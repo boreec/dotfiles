@@ -10,6 +10,7 @@ file-types = [
   ".zsh_aliases"
 ]
 
+
 [[language]]
 name = "cpp"
 scope = "source.cpp"
@@ -46,6 +47,20 @@ file-types = ["py"]
 language-servers = ["pylsp", "ruff-lsp"]
 
 [[language]]
+name = "toml"
+scope = "source.toml"
+injection-regex = "toml"
+file-types = ["toml", "poetry.lock", "Cargo.lock"]
+roots = []
+comment-token = "#"
+language-servers = [ "taplo" ]
+indent = { tab-width = 2, unit = "  " }
+
+[[grammar]]
+name = "toml"
+source = { git = "https://github.com/ikatyang/tree-sitter-toml", rev = "7cff70bbcbbc62001b465603ca1ea88edd668704" }
+
+[[language]]
 name="rust"
 file-types = ["rs"]
 language-servers = ["rust-analyzer"]
@@ -77,4 +92,5 @@ gopls = { command = "gopls" }
 marksman = { command = "marksman", args = ["server"] }
 ruff-lsp = { command = "ruff-lsp", args = [] }
 rust-analyzer = { command = "rust-analyzer", args = [] }
+taplo = { command = "taplo", args = ["lsp", "stdio"] }
 typescript-language-server = { command = "typescript-language-server", args = ["--stdio"]}
