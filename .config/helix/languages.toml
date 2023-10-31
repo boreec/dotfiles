@@ -9,14 +9,40 @@ file-types = [
   ".zshrc", 
   ".zsh_aliases"
 ]
-language-servers = ["bash-language-server"]
+
+[[language]]
+name = "cpp"
+scope = "source.cpp"
+injection-regex = "cpp"
+file-types = ["cc", "hh", "c++", "cpp", "hpp", "h", "cxx", "hxx"]
+comment-token = "//"
+language-servers = [ "clangd" ]
+indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "go"
+scope = "source.go"
+injection-regex = "go"
+file-types = ["go"]
+roots = ["go.work", "go.mod"]
+auto-format = true
+comment-token = "//"
+language-servers = [ "gopls" ]
+
+
+[[language]]
+name = "markdown"
+scope = "source.md"
+injection-regex = "md|markdown"
+file-types = ["md", "markdown", "PULLREQ_EDITMSG", "mkd", "mdwn", "mdown", "markdn", "mdtxt", "mdtext", "workbook"]
+roots = [".marksman.toml"]
+language-servers = [ "marksman" ]
+indent = { tab-width = 2, unit = "  " }
 
 [[language]]
 name = "python"
 scope = "source.python"
 file-types = ["py"]
-formatter = { command = "black", args = ["--quiet", "--line-length=80", "-"] }
-auto-format = true
 language-servers = ["pylsp", "ruff-lsp"]
 
 [[language]]
@@ -46,6 +72,8 @@ indent = { tab-width = 2, unit = "  " }
 
 [language-server]
 bash-language-server = { command = "bash-language-server", args = ["start"] }
+clangd = { command = "clangd-12" }
+gopls = { command = "gopls" }
 marksman = { command = "marksman", args = ["server"] }
 ruff-lsp = { command = "ruff-lsp", args = [] }
 rust-analyzer = { command = "rust-analyzer", args = [] }
