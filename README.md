@@ -7,7 +7,9 @@ backup in case of a new OS setup/upgrade.
 Still, I encourage anyone to explore this repository and use these files as a 
 reference for your own configuration files.
 
-# Use cases
+## Usage
+
+1. Copy all directories to your home directory.
 
 ## Softwares
 
