@@ -1,4 +1,5 @@
 alias ls='ls --color=auto'
+alias ll="ls --color=auto -l"
 
 alias prc='pre-commit'
 
