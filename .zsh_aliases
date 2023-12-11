@@ -1,8 +1,7 @@
 alias ls='ls --color=auto'
-alias ll="ls --color=auto -l"
+alias ll='ls --color=auto -l'
 
 alias prc='pre-commit'
-
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit'
@@ -17,3 +16,6 @@ alias git-clean-branches='git branch -d \
   $(git branch -l "fix/*") \
   $(git branch -l "hotfix/*") \
   2>/dev/null || echo "no branches to clean"'
+
+# load current directory .env key/value pairs as environment variables
+alias load-env='set -o allexport && source .env && set +o allexport'
