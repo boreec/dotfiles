@@ -1,0 +1,14 @@
+#!/bin/sh
+# output a markown template for reviewing articles
+cat <<EOL
+# article name
+
+link:
+author:
+
+## notes
+
+-
+-
+-
+EOL
