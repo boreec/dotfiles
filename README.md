@@ -1,17 +1,27 @@
 # dotfiles
 
 This repository is a collection of configuration files that I use across my 
-systems. It is not intended to be easy to use by everyone, but to serve as a 
-backup in case of a new OS setup/upgrade. 
+systems. It is not intended to be easy to use for all, but to serve as a 
+backup in case of a new OS setup/upgrade.
 
 Still, I encourage anyone to explore this repository and use these files as a 
 reference for your own configuration files.
 
-## Usage
+## Setup
 
-1. Copy all directories to your home directory.
+Move to your home directory, create an empty git repository, set the remote
+to this repository and pull.
+
+```console
+cd ~
+git init .
+git remote add origin https://github.com/boreec/dotfiles.git
+git pull origin main
+```
 
 ## Softwares
+
+The config files concern the following applications:
 
 - [alacritty](https://github.com/alacritty/alacritty) (terminal)
 - [helix](https://github.com/helix-editor/helix) (modal text editor)
@@ -20,6 +30,7 @@ reference for your own configuration files.
 - zsh (shell)
 
 ## Languages server
+
 - [bash-language-server](https://github.com/bash-lsp/bash-language-server) (bash)
 - [marksman](https://github.com/artempyanykh/marksman) (markdown)
 - [pylsp](https://github.com/python-lsp/python-lsp-server) (python)
@@ -27,10 +38,5 @@ reference for your own configuration files.
 - [rust-analyzer](https://github.com/rust-lang/rust-analyzer) (rust)
 - [taplo](https://github.com/tamasfe/taplo) (toml)
 - [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) (typescript)
-
-## Languages formatter
-- [black](https://github.com/psf/black) (python)
 - [rustfmt](https://github.com/rust-lang/rustfmt) (rust)
-
-## Other
 - [pre-commit](https://pre-commit.com/)
