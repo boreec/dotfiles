@@ -97,4 +97,16 @@ Pictures/
 Public/
 go/
 notes/
-
+.config/dconf/
+.config/gtk-3.0/
+.config/ibus/
+.config/kdeconnect/
+.config/pulse/
+.config/solaar/
+.config/update-notifier/
+.config/user-dirs.dirs
+.config/user-dirs.locale
+.config/xubuntu/
+backup/
+documents/
+downloads/
