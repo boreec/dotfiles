@@ -19,17 +19,20 @@ git remote add origin https://github.com/boreec/dotfiles.git
 git pull origin main
 ```
 
-## Softwares
+## Applications
 
-The config files concern the following applications:
+- commands:
+  - git
+  - [zoxide](https://github.com/ajeetdsouza/zoxide)
+- editor:
+  - [helix](https://github.com/helix-editor/helix) 
+- shell: 
+  - zsh
+- terminal:
+  - [alacritty](https://github.com/alacritty/alacritty)
+  - [zellij](https://github.com/zellij-org/zellij)
 
-- [alacritty](https://github.com/alacritty/alacritty) (terminal)
-- [helix](https://github.com/helix-editor/helix) (modal text editor)
-- [zellij](https://github.com/zellij-org/zellij) (terminal multiplexer)
-- git
-- zsh (shell)
-
-## Languages server
+## LSPs
 
 - [bash-language-server](https://github.com/bash-lsp/bash-language-server) (bash)
 - [marksman](https://github.com/artempyanykh/marksman) (markdown)
