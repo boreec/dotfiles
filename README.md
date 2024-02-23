@@ -26,7 +26,8 @@ git pull origin main
   - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - editor:
   - [helix](https://github.com/helix-editor/helix) 
-- shell: 
+- shell:
+  - [starship](https://github.com/starship/starship) 
   - zsh
 - terminal:
   - [alacritty](https://github.com/alacritty/alacritty)
