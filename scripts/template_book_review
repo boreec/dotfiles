@@ -1,0 +1,13 @@
+#!/bin/sh
+# output a markown template for reviewing books
+cat <<EOL
+# book name
+
+ISBN:
+author:
+
+## Chapter 1
+
+-
+-
+EOL
