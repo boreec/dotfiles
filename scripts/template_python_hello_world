@@ -1,0 +1,10 @@
+#!/bin/sh
+# output a python template for printing hello world
+cat <<EOL
+def main():
+    print("hello world!")
+
+
+if __name__ == "__main__":
+    main()
+EOL
