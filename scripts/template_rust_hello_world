@@ -1,0 +1,7 @@
+#!/bin/sh
+# output a rust template for printing hello world
+cat <<EOL
+fn main() {
+    println!("hello world");
+}
+EOL
