@@ -1,5 +1,5 @@
 #!/bin/sh
-# output a markown template for reviewing books
+# output a markdown template for reviewing books
 cat <<EOL
 # book name
 
