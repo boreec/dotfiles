@@ -1,0 +1,11 @@
+#!/bin/sh
+# output a go template for printing hello world
+cat <<EOL
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("hello world")
+}
+EOL
