@@ -20,7 +20,7 @@ alias git-clean-branches='git branch -d \
 # load current directory .env key/value pairs as environment variables
 alias load-env='set -o allexport && source .env && set +o allexport'
 
-# replace cd by zoxide if its installed
+# alias cd by zoxide if its installed
 if command -v z &> /dev/null; then
   alias cd='z'
 fi
