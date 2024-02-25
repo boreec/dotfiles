@@ -1,13 +1,18 @@
 #!/bin/sh
 # output a markown template for reviewing articles
 cat <<EOL
-# article name
+# Article Name
 
 link:
 author:
 
-## notes
+## Premise
 
-- premise:
+What the article is about in one sentence
+
+## Notes
+
+-
+-
 -
 EOL
