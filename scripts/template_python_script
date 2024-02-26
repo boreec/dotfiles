@@ -1,0 +1,13 @@
+#!/bin/sh
+# output a python template for creating a script
+cat <<EOL
+#!/usr/bin/env python3
+
+
+def main():
+    print("hello world!")
+
+
+if __name__ == "__main__":
+    main()
+EOL
