@@ -1,0 +1,3 @@
+#!/bin/sh
+# print tomorrow in the format "Fri 31/12/2023".
+date -u -v -1d +"%a %d/%m/%Y"
