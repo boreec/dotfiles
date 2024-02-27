@@ -3,8 +3,13 @@
 cat <<EOL
 # book name
 
-ISBN:
-author:
+- ISBN:
+- author:
+
+## Table of contents
+
+- link to Chapter 1
+-
 
 ## Chapter 1
 
