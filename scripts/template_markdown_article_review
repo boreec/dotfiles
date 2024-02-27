@@ -3,8 +3,8 @@
 cat <<EOL
 # Article Name
 
-link:
-author:
+- link:
+- author:
 
 ## Premise
 
