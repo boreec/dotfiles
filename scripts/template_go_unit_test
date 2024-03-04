@@ -1,0 +1,8 @@
+#!/bin/sh
+# output a go template for creating an unit test function
+cat <<EOL
+func TestMyFunction(t *testing.T) {
+	assert := assert.New(t)
+	
+}
+EOL
