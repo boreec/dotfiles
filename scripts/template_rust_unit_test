@@ -1,0 +1,14 @@
+#!/bin/sh
+# output a rust template for writing unit test
+cat <<EOL
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        let result = add(2, 2);
+        assert_eq!(result, 4);
+    }
+}
+EOL
