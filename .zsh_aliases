@@ -11,7 +11,7 @@ function setup_alias() {
 }
 
 # directory/file related aliases
-setup_alias "cd" "z"
+setup_alias "cd" "__zoxide_z"
 setup_alias "ls" "ls --color=auto"
 setup_alias "ll" "ls --color=auto -l"
 
