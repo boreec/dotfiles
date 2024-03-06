@@ -10,9 +10,14 @@ function setup_alias() {
   fi
 }
 
+# directory/file related aliases
+setup_alias "cd" "z"
 setup_alias "ls" "ls --color=auto"
 setup_alias "ll" "ls --color=auto -l"
 
+# environment related aliases
+# load current directory .env key/value pairs as environment variables
+setup_alias "load-env" 'set -o allexport && source .env && set +o allexport'
 
 # git related aliases
 setup_alias "ga" "git add"
@@ -38,9 +43,5 @@ setup_alias "git-clean-branches" 'git branch -d \
   $(git branch -l "hotfix/*") \
   2>/dev/null || echo "no branches to clean"'
 
-# load current directory .env key/value pairs as environment variables
-setup_alias "load-env" 'set -o allexport && source .env && set +o allexport'
-
+# aws
 setup_alias "awslogin" 'aws sso login --profile cyprien-dev'
-
-setup_alias "cd" "z"
