@@ -13,16 +13,17 @@ function setup_alias() {
 setup_alias "ls" "ls --color=auto"
 setup_alias "ll" "ls --color=auto -l"
 
-setup_alias "prc" "pre-commit"
 
-setup_alias "gs" "git status"
+# git related aliases
 setup_alias "ga" "git add"
 setup_alias "gap" "git add -p"
 setup_alias "gc" "git commit"
 setup_alias "gcm" "git commit -m"
-setup_alias "gp" "git push"
 setup_alias "gd" "git diff"
 setup_alias "gds" "git diff --staged"
+setup_alias "gs" "git status"
+setup_alias "gp" "git push"
+setup_alias "prc" "pre-commit"
 
 # delete git branches whose name start with on of the following prefixes:
 setup_alias "git-clean-branches" 'git branch -d \
