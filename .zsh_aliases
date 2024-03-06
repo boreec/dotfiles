@@ -21,6 +21,10 @@ setup_alias "gc" "git commit"
 setup_alias "gcm" "git commit -m"
 setup_alias "gd" "git diff"
 setup_alias "gds" "git diff --staged"
+setup_alias "gl" "git log --color --graph --pretty=format:'%Cred%h%Creset \
+  -%C(yellow)%d%Creset %s %Cgreen(%cr) \
+  %C(bold blue)<%an>%Creset' \
+  --abbrev-commit"
 setup_alias "gs" "git status"
 setup_alias "gpull" "git pull"
 setup_alias "gpush" "git push"
