@@ -22,7 +22,7 @@ git pull origin main
 ## Applications
 
 - commands:
-  - git
+  - [git](https://git-scm.com/)
   - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - editor:
   - [helix](https://github.com/helix-editor/helix) 
@@ -32,6 +32,8 @@ git pull origin main
 - terminal:
   - [alacritty](https://github.com/alacritty/alacritty)
   - [zellij](https://github.com/zellij-org/zellij)
+- web-browser:
+  - [firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 ## LSPs
 
