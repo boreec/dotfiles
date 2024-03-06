@@ -24,8 +24,6 @@ setup_alias "gds" "git diff --staged"
 setup_alias "gs" "git status"
 setup_alias "gp" "git push"
 setup_alias "prc" "pre-commit"
-
-# delete git branches whose name start with on of the following prefixes:
 setup_alias "git-clean-branches" 'git branch -d \
   $(git branch -l "chore/*") \
   $(git branch -l "docs/*") \
