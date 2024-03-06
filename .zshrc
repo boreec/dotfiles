@@ -1,6 +1,3 @@
-# include aliases
-source ~/.zsh_aliases
-
 export PATH="$HOME/scripts:$PATH"
 
 # enable autocompletion
@@ -17,3 +14,6 @@ if command -v zoxide &> /dev/null; then
 else
     echo "zoxide not installed, eval skipped"
 fi
+
+# include aliases
+source ~/.zsh_aliases
