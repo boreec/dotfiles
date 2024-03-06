@@ -35,6 +35,7 @@ git pull origin main
   - [zellij](https://github.com/zellij-org/zellij)
 - web-browser:
   - [firefox](https://www.mozilla.org/en-US/firefox/new/)  
+    - [facebook container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
     - [noscript](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
     - [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
