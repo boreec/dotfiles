@@ -20,6 +20,12 @@ alias git-clean-branches='git branch -d \
 # load current directory .env key/value pairs as environment variables
 alias load-env='set -o allexport && source .env && set +o allexport'
 
+if command -v aws &> /dev/null; then
+  alias awslogin='aws sso login --profile cyprien-dev'
+else
+  echo "aws-cli not installed, command aliasing skipped"
+fi
+
 if command -v zoxide &> /dev/null; then
   alias cd='z'
 else
