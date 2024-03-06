@@ -17,6 +17,7 @@ setup_alias "prc" "pre-commit"
 
 setup_alias "gs" "git status"
 setup_alias "ga" "git add"
+setup_alias "gap" "git add -p"
 setup_alias "gc" "git commit"
 setup_alias "gp" "git push"
 
