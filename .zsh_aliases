@@ -45,3 +45,6 @@ setup_alias "git-clean-branches" 'git branch -d \
 
 # aws
 setup_alias "awslogin" 'aws sso login --profile cyprien-dev'
+
+# web-browser
+alias search="~/scripts/search-on-firefox.sh"
