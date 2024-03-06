@@ -35,8 +35,8 @@ git pull origin main
   - [zellij](https://github.com/zellij-org/zellij)
 - web-browser:
   - [firefox](https://www.mozilla.org/en-US/firefox/new/)  
-    - [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
     - [noscript](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
+    - [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
 ## LSPs
 
