@@ -23,6 +23,7 @@ git pull origin main
 
 - commands:
   - [git](https://git-scm.com/)
+  - [glow](https://github.com/charmbracelet/glow)
   - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - editor:
   - [helix](https://github.com/helix-editor/helix) 
