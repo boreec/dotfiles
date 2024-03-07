@@ -19,27 +19,11 @@ git remote add origin https://github.com/boreec/dotfiles.git
 git pull origin main
 ```
 
-## Applications
+---
 
-- commands:
-  - [bat](https://github.com/sharkdp/bat)
-  - [git](https://git-scm.com/)
-  - [glow](https://github.com/charmbracelet/glow)
-  - [zoxide](https://github.com/ajeetdsouza/zoxide)
-- editor:
-  - [helix](https://github.com/helix-editor/helix) 
-- shell:
-  - [starship](https://github.com/starship/starship) 
-  - zsh
-- terminal:
-  - [alacritty](https://github.com/alacritty/alacritty)
-  - [zellij](https://github.com/zellij-org/zellij)
-- web-browser:
-  - [firefox](https://www.mozilla.org/en-US/firefox/new/)  
-    - [facebook container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
-    - [noscript](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
-    - [privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
-    - [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+## Editor
+
+- [helix](https://github.com/helix-editor/helix) 
 
 ## LSPs
 
@@ -52,3 +36,26 @@ git pull origin main
 - [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) (typescript)
 - [rustfmt](https://github.com/rust-lang/rustfmt) (rust)
 - [pre-commit](https://pre-commit.com/)
+
+## Shell/Terminal
+
+- [alacritty](https://github.com/alacritty/alacritty)
+- [starship](https://github.com/starship/starship) 
+- [zellij](https://github.com/zellij-org/zellij)
+- zsh
+
+## Utilities
+
+- [bat](https://github.com/sharkdp/bat)
+- [git](https://git-scm.com/)
+- [glow](https://github.com/charmbracelet/glow)
+- [zoxide](https://github.com/ajeetdsouza/zoxide)
+
+## Web Browser
+
+- [firefox](https://www.mozilla.org/en-US/firefox/new/)
+  - [facebook container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
+  - [noscript](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
+  - [privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
+  - [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+
