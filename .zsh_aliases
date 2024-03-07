@@ -14,6 +14,7 @@ function setup_alias() {
 setup_alias "cd" "z"
 setup_alias "ls" "ls --color=auto"
 setup_alias "ll" "ls --color=auto -l"
+setup_alias "cat" "bat --theme='Monokai Extended'"
 
 # environment related aliases
 # load current directory .env key/value pairs as environment variables
