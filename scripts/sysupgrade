@@ -1,0 +1,11 @@
+#!/bin/zsh
+# upgrade system using appropriate package manager
+
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+	sudo apt-get upgrade
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+	brew upgrade
+else
+	echo "unsupported os $OSTYPE"
+fi
+
