@@ -1,0 +1,9 @@
+#!/bin/sh
+# check if the current internet connection is working
+
+remote_host="wikipedia.org"
+if ping -c 4 $remote_host &>/dev/null; then
+	echo "connected"
+else
+	echo "no connected"
+fi
