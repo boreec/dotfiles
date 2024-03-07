@@ -37,6 +37,7 @@ git pull origin main
   - [firefox](https://www.mozilla.org/en-US/firefox/new/)  
     - [facebook container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
     - [noscript](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
+    - [privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
     - [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
 ## LSPs
