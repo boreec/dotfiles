@@ -22,6 +22,7 @@ git pull origin main
 ## Applications
 
 - commands:
+  - [bat](https://github.com/sharkdp/bat)
   - [git](https://git-scm.com/)
   - [glow](https://github.com/charmbracelet/glow)
   - [zoxide](https://github.com/ajeetdsouza/zoxide)
