@@ -110,3 +110,5 @@ notes/
 backup/
 documents/
 downloads/
+.kube
+.pgrx
