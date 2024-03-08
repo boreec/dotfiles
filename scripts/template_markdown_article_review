@@ -1,7 +1,8 @@
 #!/bin/sh
 # output a markown template for reviewing articles
 cat <<EOL
-# Article Name
+Article Name
+=====
 
 - link:
 - author:

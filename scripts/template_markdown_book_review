@@ -1,7 +1,8 @@
 #!/bin/sh
 # output a markdown template for reviewing books
 cat <<EOL
-# book name
+Book name
+=====
 
 - ISBN:
 - author:
