@@ -49,6 +49,7 @@ git pull origin main
 - [bat](https://github.com/sharkdp/bat)
 - [git](https://git-scm.com/)
 - [glow](https://github.com/charmbracelet/glow)
+- [tldr](https://github.com/tldr-pages/tldr)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 
 ## Web Browser
