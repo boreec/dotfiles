@@ -58,5 +58,6 @@ git pull origin main
   - [facebook container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
   - [noscript](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
   - [privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
+  - [tosdr](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/)
   - [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
