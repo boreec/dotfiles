@@ -1,4 +1,7 @@
-[user]
-	name = Cyprien Boree
+[branch]
+	# Show most recently changed branches first.
+	sort = -committerdate
 [core]
 	editor = hx
+[init]
+	defaultBranch = main
