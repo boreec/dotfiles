@@ -36,3 +36,18 @@ style = "Italic"
 [font.normal]
 family = "FiraCode Nerd Font"
 style = "Regular"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Key1"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Key2"
+mods = "Control"
