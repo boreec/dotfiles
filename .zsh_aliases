@@ -17,6 +17,7 @@ setup_alias "ll" "ls --color=auto -l"
 setup_alias "cat" "bat --theme='Monokai Extended'"
 
 # environment related aliases
+setup_alias "resource" "source ~/.zshrc"
 # load current directory .env key/value pairs as environment variables
 setup_alias "load-env" 'set -o allexport && source .env && set +o allexport'
 
