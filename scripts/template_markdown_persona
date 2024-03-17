@@ -1,0 +1,42 @@
+#!/bin/sh
+# output a markdown template for persona
+cat <<EOL
+Civil information
+=====
+
+- First Name:
+- Family Name:
+- Birthdate:
+
+# Online information
+
+- nicknames:
+	- 
+	- 
+- mail:
+	- 
+	- 
+
+## Websites
+
+### Instagram
+
+- name: 
+- link: 
+
+### Facebook
+
+- name: 
+- uid: 
+- link:
+
+### Twitter
+
+- name:
+- link:
+
+### YouTube
+
+- name:
+- link: 
+EOL
