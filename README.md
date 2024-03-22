@@ -31,6 +31,7 @@ git pull origin main
 - [marksman](https://github.com/artempyanykh/marksman)
 - [pre-commit](https://pre-commit.com/)
 - [pylsp](https://github.com/python-lsp/python-lsp-server)
+- [pyright](https://github.com/microsoft/pyright)
 - [ruff-lsp](https://github.com/astral-sh/ruff-lsp)
 - [rust-analyzer](https://github.com/rust-lang/rust-analyzer)
 - [taplo](https://github.com/tamasfe/taplo)
