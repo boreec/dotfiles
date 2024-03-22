@@ -10,7 +10,6 @@ file-types = [
   ".zsh_aliases"
 ]
 
-
 [[language]]
 name = "cpp"
 scope = "source.cpp"
@@ -44,13 +43,12 @@ indent = { tab-width = 2, unit = "  " }
 name = "python"
 scope = "source.python"
 file-types = ["py"]
-language-servers = ["pylsp", "ruff-lsp"]
+language-servers = ["pylsp", "ruff-lsp", "pyright"]
 
 [[language]]
 name="rust"
 file-types = ["rs"]
 language-servers = ["rust-analyzer"]
-
 
 [[language]]
 name = "markdown"
@@ -90,6 +88,7 @@ bash-language-server = { command = "bash-language-server", args = ["start"] }
 clangd = { command = "clangd-12" }
 gopls = { command = "gopls" }
 marksman = { command = "marksman", args = ["server"] }
+pyright = { command = "pyright-langserver", args = ["stdio"]}
 ruff-lsp = { command = "ruff-lsp", args = [] }
 rust-analyzer = { command = "rust-analyzer", args = [] }
 taplo = { command = "taplo", args = ["lsp", "stdio"] }
