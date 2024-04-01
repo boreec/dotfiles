@@ -51,6 +51,7 @@ setup_alias "awslogin" 'aws sso login --profile cyprien-dev'
 # container / orchestration
 setup_alias "kg" 'kubectl get'
 setup_alias "kd" 'kubectl describe'
+setup_alias "kl" 'kubectl logs'
 
 # web-browser
 alias search="~/scripts/search-on-firefox.sh"
