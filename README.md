@@ -35,7 +35,7 @@ git pull origin main
 - [ruff-lsp](https://github.com/astral-sh/ruff-lsp)
 - [rust-analyzer](https://github.com/rust-lang/rust-analyzer)
 - [taplo](https://github.com/tamasfe/taplo)
-- [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) (typescript)
+- [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server)
 - [rustfmt](https://github.com/rust-lang/rustfmt)
 
 ## Shell/Terminal
