@@ -28,6 +28,7 @@ git pull origin main
 ## LSPs
 
 - [bash-language-server](https://github.com/bash-lsp/bash-language-server)
+- [helm-ls](https://github.com/mrjosh/helm-ls)
 - [marksman](https://github.com/artempyanykh/marksman)
 - [pre-commit](https://pre-commit.com/)
 - [pylsp](https://github.com/python-lsp/python-lsp-server)
@@ -37,6 +38,7 @@ git pull origin main
 - [taplo](https://github.com/tamasfe/taplo)
 - [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server)
 - [rustfmt](https://github.com/rust-lang/rustfmt)
+- [yaml-lamguage-server](https://www.npmjs.com/package/yaml-language-server)
 
 ## Shell/Terminal
 
