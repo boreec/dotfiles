@@ -5,6 +5,7 @@ bufferline = "multiple"
 middle-click-paste = false
 mouse = false
 rulers = [80]
+popup-border = "all"
 
 [editor.cursor-shape]
 insert = "bar"
