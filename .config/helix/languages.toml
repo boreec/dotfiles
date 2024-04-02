@@ -86,9 +86,21 @@ file-types = ["py"]
 language-servers = ["pylsp", "ruff-lsp", "pyright"]
 
 [[language]]
-name="rust"
+name = "rust"
+scope = "source.rust"
+injection-regex = "rust"
 file-types = ["rs"]
-language-servers = ["rust-analyzer"]
+roots = ["Cargo.toml", "Cargo.lock"]
+auto-format = true
+comment-tokens = ["//", "///", "//!"]
+block-comment-tokens = [
+  { start = "/*", end = "*/" },
+  { start = "/**", end = "*/" },
+  { start = "/*!", end = "*/" },
+]
+language-servers = [ "rust-analyzer" ]
+indent = { tab-width = 4, unit = "    " }
+persistent-diagnostic-sources = ["rustc", "clippy"]
 
 [[language]]
 name = "markdown"
@@ -142,6 +154,20 @@ helm_ls = { command = "helm_ls", args = ["serve"] }
 marksman = { command = "marksman", args = ["server"] }
 pyright = { command = "pyright-langserver", args = ["stdio"]}
 ruff-lsp = { command = "ruff-lsp", args = [] }
-rust-analyzer = { command = "rust-analyzer", args = [] }
 taplo = { command = "taplo", args = ["lsp", "stdio"] }
 typescript-language-server = { command = "typescript-language-server", args = ["--stdio"]}
+
+[language-server.rust-analyzer]
+command = "rust-analyzer"
+
+[language-server.rust-analyzer.config]
+inlayHints.bindingModeHints.enable = false
+inlayHints.closingBraceHints.minLines = 10
+inlayHints.closureReturnTypeHints.enable = "with_block"
+inlayHints.discriminantHints.enable = "fieldless"
+inlayHints.lifetimeElisionHints.enable = "skip_trivial"
+inlayHints.typeHints.hideClosureInitialization = false
+
+[[grammar]]
+name = "rust"
+source = { git = "https://github.com/tree-sitter/tree-sitter-rust", rev = "0431a2c60828731f27491ee9fdefe25e250ce9c9" }
