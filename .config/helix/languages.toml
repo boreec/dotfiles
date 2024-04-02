@@ -119,14 +119,26 @@ language-servers = ["typescript-language-server"]
 name = "yaml"
 scope = "source.yaml"
 file-types = ["yml", "yaml"]
-roots = []
 comment-token = "#"
 indent = { tab-width = 2, unit = "  " }
+language-servers = [ "yaml-language-server" ]
+injection-regex = "yml|yaml"
+
+[[language]]
+name = "helm"
+grammar = "gotmpl"
+scope = "source.helm"
+roots = ["Chart.yaml"]
+comment-token = "#"
+language-servers = ["helm_ls"]
+file-types = [ { glob = "templates/*.yaml" }, { glob = "templates/_helpers.tpl"}, { glob = "templates/NOTES.txt" } ]
+
 
 [language-server]
 bash-language-server = { command = "bash-language-server", args = ["start"] }
 clangd = { command = "clangd-12" }
 gopls = { command = "gopls" }
+helm_ls = { command = "helm_ls", args = ["serve"] }
 marksman = { command = "marksman", args = ["server"] }
 pyright = { command = "pyright-langserver", args = ["stdio"]}
 ruff-lsp = { command = "ruff-lsp", args = [] }
