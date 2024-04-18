@@ -33,8 +33,8 @@ setup_alias "gl" "git log --color --graph --pretty=format:'%Cred%h%Creset \
   %C(bold blue)<%an>%Creset' \
   --abbrev-commit"
 setup_alias "gs" "git status"
-setup_alias "gpull" "git pull"
-setup_alias "gpush" "git push"
+setup_alias "gpl" "git pull"
+setup_alias "gps" "git push"
 setup_alias "prc" "pre-commit"
 setup_alias "git-clean-branches" 'git branch -d \
   $(git branch -l "chore/*") \
