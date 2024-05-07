@@ -1,3 +1,7 @@
+simplified_ui true
+default_shell "zsh"
+pane_frames false
+
 // If you'd like to override the default keybindings completely, be sure to change "keybinds" to "keybinds clear-defaults=true"
 keybinds {
     normal {
