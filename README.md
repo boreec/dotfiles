@@ -50,6 +50,7 @@ git pull origin main
 ## Utilities
 
 - [bat](https://github.com/sharkdp/bat)
+- [bottom](https://github.com/ClementTsang/bottom)
 - [git](https://git-scm.com/)
 - [glow](https://github.com/charmbracelet/glow)
 - [tldr](https://github.com/tldr-pages/tldr)
