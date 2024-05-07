@@ -1,4 +1,10 @@
+USE_LOCAL_SEARXNG=1
+
 export PATH="$HOME/scripts:$PATH"
+
+if [ "$USE_LOCAL_SEARXNG" -eq 1 ]; then
+    ./scripts/launch-server-searxng.sh
+fi
 
 # enable autocompletion
 autoload -U compinit; compinit
