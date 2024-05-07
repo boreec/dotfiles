@@ -63,3 +63,5 @@ setup_alias "kl" 'kubectl logs'
 
 # web-browser
 alias search="~/scripts/search-on-firefox.sh"
+
+alias curlip="~/scripts/curl-ip.sh"
