@@ -6,7 +6,7 @@ CONTAINER_NAME="local_searxng"
 docker pull searxng/searxng
 docker run --rm \
   -d -p ${PORT}:8080 \
-  -v "${PWD}/searxng:/etc/searxng" \
+  -v "$HOME/searxng:/etc/searxng" \
   -e "BASE_URL=http://localhost:$PORT" \
   -e "INSTANCE_NAME=searxng-local" \
   --name ${CONTAINER_NAME} \
