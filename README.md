@@ -61,6 +61,7 @@ git pull origin main
 - [bottom](https://github.com/ClementTsang/bottom)
 - [git](https://git-scm.com/)
 - [glow](https://github.com/charmbracelet/glow)
+- [hammerspoon](https://www.hammerspoon.org)
 - [mise](https://github.com/jdx/mise)
 - [tldr](https://github.com/tldr-pages/tldr)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
