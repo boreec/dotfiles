@@ -23,8 +23,11 @@ git pull origin main
 
 ## Key Bindings
 
-- Ctrl + Shift + C: open the console
-- Ctrl + Shift + F: open firefox
+- Appication shortcuts
+  - Ctrl + Shift + C: open the console
+  - Ctrl + Shift + F: open firefox
+- Website shortcuts
+  - Ctrl + Cmd/Alt + G: open GitHub
 
 ## Editor
 
