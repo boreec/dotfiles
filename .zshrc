@@ -21,5 +21,11 @@ else
     echo "zoxide not installed, eval skipped"
 fi
 
+if command -v mise &> /dev/null; then
+    eval "$(mise activate zsh)"
+else
+    echo "mise not installed, eval skipped"
+fi
+
 # include aliases
 source ~/.zsh_aliases
