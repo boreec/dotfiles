@@ -21,6 +21,11 @@ git pull origin main
 
 ---
 
+## Key Bindings
+
+- Ctrl + Shift + C: open the console
+- Ctrl + Shift + F: open firefox
+
 ## Editor
 
 - [helix](https://github.com/helix-editor/helix) 
