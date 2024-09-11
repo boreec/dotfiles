@@ -1,3 +1,5 @@
+local servers = { "lua_ls", "gopls", "graphql", "ts_ls" }
+
 return {
   {
     "williamboman/mason.nvim",
@@ -9,10 +11,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = {
-          "lua_ls",
-          "gopls"
-        }
+        ensure_installed = servers
       })
     end
   },
@@ -21,12 +20,11 @@ return {
     config = function()
       local capabilities = require("cmp_nvim_lsp").default_capabilities()
       local lspconfig = require("lspconfig")
-      lspconfig.lua_ls.setup({
-        capabilities = capabilities
-      })
-      lspconfig.gopls.setup({
-        capabilities = capabilities
-      })
+      for _, server in ipairs(servers) do
+        lspconfig[server].setup({
+          capabilities = capabilities
+        })
+      end
 
       vim.keymap.set('n', '<leader>k', vim.lsp.buf.hover, {})
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
