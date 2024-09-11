@@ -1,5 +1,7 @@
 vim.g.mapleader = " "
 
+vim.api.nvim_set_keymap('n', 'a', '', { noremap = true })
+
 local hardmode = true
 if hardmode then
     -- Show an error message if a disabled key is pressed
