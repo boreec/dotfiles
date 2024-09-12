@@ -1,6 +1,13 @@
 vim.g.mapleader = " "
 
+-- Disable the insertion with a
 vim.api.nvim_set_keymap('n', 'a', '', { noremap = true })
+
+-- Navigate to the next buffer using Tab in normal mode
+vim.api.nvim_set_keymap('n', '<Tab>', ':bnext<CR>', { noremap = true, silent = true })
+
+-- Navigate to the previous buffer using Shift+Tab in normal mode
+vim.api.nvim_set_keymap('n', '<S-Tab>', ':bprev<CR>', { noremap = true, silent = true })
 
 local hardmode = true
 if hardmode then
