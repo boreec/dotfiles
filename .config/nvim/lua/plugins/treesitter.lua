@@ -12,6 +12,7 @@ return {
         "proto",
         "python",
         "rust",
+        "sql",
         "typescript",
         "vim",
       },
