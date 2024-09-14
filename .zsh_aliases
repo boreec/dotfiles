@@ -65,3 +65,7 @@ setup_alias "kl" 'kubectl logs'
 alias search="~/scripts/search-on-firefox.sh"
 
 alias curlip="~/scripts/curl-ip.sh"
+
+# text editor
+alias vim=nvim
+alias n=nvim
