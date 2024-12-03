@@ -9,6 +9,12 @@ vim.api.nvim_set_keymap('n', '<Tab>', ':bnext<CR>', { noremap = true, silent = t
 -- Navigate to the previous buffer using Shift+Tab in normal mode
 vim.api.nvim_set_keymap('n', '<S-Tab>', ':bprev<CR>', { noremap = true, silent = true })
 
+-- Navigate in luasnip insert and select nodes
+vim.api.nvim_set_keymap("i", "<c-j>", "<cmd>lua require'luasnip'.jump(1)<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("s", "<c-j>", "<cmd>lua require'luasnip'.jump(1)<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("i", "<c-k>", "<cmd>lua require'luasnip'.jump(-1)<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("s", "<c-k>", "<cmd>lua require'luasnip'.jump(-1)<CR>", { noremap = true, silent = true })
+
 local hardmode = true
 if hardmode then
     -- Show an error message if a disabled key is pressed

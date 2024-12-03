@@ -4,7 +4,8 @@ return {
     require("conform").setup({
       formatters_by_ft = {
         go = { "gofmt" },
-        lua = { "stylua" }
+        lua = { "stylua" },
+        xml = { "xmllint" }
       }
     })
   end,
