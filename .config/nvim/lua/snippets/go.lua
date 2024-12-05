@@ -29,7 +29,7 @@ ls.add_snippets("go", {
             'func (suite *',
         }),
         f(repeat_input, {1}), -- Reuse the struct name
-        t({') SetupTestSuite() {',
+        t({') SetupSuite() {',
             '\t// Run before the test suite execution',
             '}',
             '',
