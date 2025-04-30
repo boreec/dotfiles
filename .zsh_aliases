@@ -19,7 +19,6 @@ function setup_alias() {
 setup_alias "cd" "z"
 setup_alias "ls" "ls --color=auto"
 setup_alias "ll" "ls --color=auto -l"
-setup_alias "cat" "bat --theme='Monokai Extended'"
 
 # system related aliases
 setup_alias "btm" "bottom -b"
@@ -66,6 +65,7 @@ alias search="~/scripts/search-on-firefox.sh"
 
 alias curlip="~/scripts/curl-ip.sh"
 
-# text editor
+# tmux/ text editor
+alias tmux="tmux -f ~/.config/tmux/tmux.conf"
 alias vim=nvim
 alias n=nvim
