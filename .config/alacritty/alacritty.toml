@@ -22,8 +22,11 @@ yellow = "#F9CC6C"
 background = "#20282D"
 foreground = "#FFF1F3"
 
+[env]
+TERM = "xterm-256color"
+
 [font]
-size = 16.0
+size = 12.0
 
 [font.bold]
 family = "FiraCode Nerd Font"
@@ -51,6 +54,9 @@ mods = "Control"
 action = "DecreaseFontSize"
 key = "Key2"
 mods = "Control"
+
+[terminal.shell]
+program = "/usr/bin/fish"
 
 [window]
 opacity = 0.9
