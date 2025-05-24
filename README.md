@@ -8,8 +8,8 @@ that everything will always work as documented. Use it at your own risk.
 - [📦 Contents](#📦-contents)
 - [🔨 Tools](#🔨-tools)
   - [👀 Monitoring](#👀-monitoring)
+  - [🖥️ Shell & Terminal](#🖥️-shell-terminal)
   - [📝 Text Editing](#📝-text-editing)
-  - [🖥️ Terminal](#🖥️-terminal)
   - [⚙️ Utilities](#️-utilities)
   - [🕸️ Web Browsing](#🕸️-web-browsing)
   - [🪟 Window manager](#🪟-window-manager)
@@ -48,16 +48,17 @@ cp -R .config/tmux ~/.config/tmux
 .
 ├── .config         # The main config folder
 │   ├── alacritty   # Config for alacritty
+│   ├── fish        # Config for fish
 │   ├── helix       # Config for helix: deprecated in favor of neovim
-│   ├── nvim        # Config neovim: nvim-config git submodule
+│   ├── nvim        # Config for neovim: nvim-config git submodule
 │   ├── ruff        # Config for ruff
 │   ├── rustfmt     # Config for rustfmt
 │   ├── tmux        # Config for tmux
 │   └── zellij      # Config for zellij: deprecated in favor of tmux
 ├── .hammerspoon    # Config for hammerspoon
 ├── scripts         # Homemade scripts
-├── .zsh_aliases    # Useful command aliases
-├── .zshrc          # Common .zshrc
+├── .zsh_aliases    # Aliases for zsh: deprecated in favor of fish
+├── .zshrc          # Common .zshrc: deprecated in favor of fish
 └── README.md       # You are here
 ```
 
@@ -70,14 +71,17 @@ Below is a list of tools I use regularly.
 - [bottom](https://github.com/ClementTsang/bottom)
 - [btop](https://github.com/aristocratos/btop)
 
+### 🖥️ Shell & Terminal
+
+- [alacritty](https://github.com/alacritty/alacritty)
+- [fish](https://github.com/fish-shell/fish-shell)
+- [spaceship](https://github.com/spaceship-prompt/spaceship-prompt)
+- [tmux](https://github.com/tmux/tmux)
+
 ### 📝 Text Editing
 
 - [helix](https://github.com/helix-editor/helix)
 - [neovim](https://github.com/neovim/neovim)
-
-### 🖥️ Terminal
-
-- [alacritty](https://github.com/alacritty/alacritty)
 
 ### ⚙️ Utilities
 
