@@ -11,6 +11,7 @@ if status is-interactive
     end
 end
 
+direnv hook fish | source
 mise activate fish | source
 starship init fish | source
 zoxide init fish | source

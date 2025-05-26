@@ -85,6 +85,7 @@ Below is a list of tools I use regularly.
 
 ### ⚙️ Utilities
 
+- [direnv](https://github.com/direnv/direnv)
 - [hammerspoon](https://www.hammerspoon.org)
 - [mise](https://github.com/jdx/mise)
 - [tldr](https://github.com/tldr-pages/tldr)
