@@ -1,3 +1,4 @@
 #!/bin/sh
-sudo pacman -S curl fd firefox fzf kitty go hyprland nvim lua luarocks ly perl \
-  pip python stylua tmux tree-sitter-cli waybar wget wl-clipboard
+sudo pacman -S blueman bluez curl dolphin efibootmgr fd firefox fzf keepassxc \
+  kitty go hyprland nvim lua luarocks ly lz4 perl pip python stylua tmux \
+  tree-sitter-cli ttf-jetbrains-mono-nerd vlc waybar wget wl-clipboard
