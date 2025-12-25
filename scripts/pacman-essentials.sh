@@ -2,4 +2,4 @@
 sudo pacman -S blueman bluez curl dolphin efibootmgr fd firefox fzf git \
   github-cli keepassxc kitty go hyprland jq lua luarocks ly lz4 nvim perl pip \
   python stylua tokei tmux tree tree-sitter-cli ttf-jetbrains-mono-nerd vlc \
-  waybar wget wl-clipboard
+  vlc-plugins-all waybar wget wl-clipboard
