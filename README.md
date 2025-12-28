@@ -56,7 +56,6 @@ cp -R .config/tmux ~/.config/tmux
 │   ├── tmux        # Config for tmux
 │   └── zellij      # Config for zellij: deprecated in favor of tmux
 ├── .hammerspoon    # Config for hammerspoon
-├── scripts         # Homemade scripts
 ├── .zsh_aliases    # Aliases for zsh: deprecated in favor of fish
 ├── .zshrc          # Common .zshrc: deprecated in favor of fish
 └── README.md       # You are here
