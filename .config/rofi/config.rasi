@@ -15,6 +15,7 @@ window {
     location:   north;
     width:      100%;
     padding:    4px;
+    y-offset: -30px;
     children:   [ horibox ];
 }
 horibox {
