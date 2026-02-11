@@ -1,7 +1,6 @@
 set -U fish_greeting
 set -gx EDITOR vim
 set -gx GOPATH $HOME/go
-set -gx TERM xterm-256color
 
 fish_add_path $GOPATH/bin
 
