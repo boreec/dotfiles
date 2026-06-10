@@ -1,0 +1,23 @@
+.config/tmux/tmux.conf
+  s_5b3b59815f57de::t_c5f99cf4fbe2de 8-9,12-22,24,26-41
+.gitconfig
+  s_5b3b59815f57de::t_4982d618c51ade 5,8-12
+.config/fish/config.fish
+  s_5b3b59815f57de::t_f141c32e4ec6bf 1,6-7,9-11,16-20,22-23,30-33,37-43,47-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "a24dfb0b41a037242ff136cab5a7b4ec1ef99e87",
+  "prompts": {},
+  "sessions": {
+    "s_5b3b59815f57de": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4b1c745e-f46e-4ee5-8494-1a19edb1898a",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Cyprien Borée <cyprien.boree@tensorenergy.jp>"
+    }
+  }
+}
