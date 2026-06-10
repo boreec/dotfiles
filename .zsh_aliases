@@ -52,9 +52,6 @@ setup_alias "git-clean-branches" 'git branch -d \
   $(git branch -l "hotfix/*") \
   2>/dev/null || echo "no branches to clean"'
 
-# aws
-setup_alias "awslogin" 'aws sso login --profile cyprien-dev'
-
 # container / orchestration
 setup_alias "kg" 'kubectl get'
 setup_alias "kd" 'kubectl describe'

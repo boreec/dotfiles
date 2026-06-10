@@ -107,6 +107,7 @@ notes/
 .config/user-dirs.dirs
 .config/user-dirs.locale
 .config/xubuntu/
+.config/fish/secrets.fish
 backup/
 documents/
 downloads/

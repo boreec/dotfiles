@@ -2,6 +2,11 @@
 	# Show most recently changed branches first.
 	sort = -committerdate
 [core]
-	editor = hx
+	editor = nvim
 [init]
 	defaultBranch = main
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
